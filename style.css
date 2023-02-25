@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    text-align: center;
+}
+
+h1{
+    color: rgb(120, 244, 244);
+    background-color: darkturquoise;
+    font-size: 50px;
+}
+
+#show_sketch{
+    float: right;
+    background-image: linear-gradient(120deg, #35f4d4 0%, #34c464 100%);
+    font-size: 25px;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px white;
+    border-radius: 20px;
+    animation-name: Not;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 65px;
+}
+
+@keyframes Not{
+    from{box-shadow: 10px 10px 50px red;}
+    to{box-shadow: 10px 10px 50px orangered;}
+}
+
